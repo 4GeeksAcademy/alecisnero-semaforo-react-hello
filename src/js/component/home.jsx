@@ -87,7 +87,7 @@ const Home = () => {
 			<div className="row">
 				<div className="col mt-3">
 					<div className="d-flex justify-content-center">
-						<h1 className="border rounded text-center mt-2 p-2" style={{ maxWidth: '350px', backgroundColor: '#eaeaea' }}>SEMAFORO</h1>
+						<h1 className="border rounded text-center mt-2 p-2" style={{ maxWidth: '350px', backgroundColor: '#eaeaea' }}>Traffic light</h1>
 					</div>
 					<div className="mt-5 p-3 text-center border rounded d-flex flex-column" style={{backgroundColor: '#eaeaea'}}>
 						{/* BOTON DE INICIAR */}
