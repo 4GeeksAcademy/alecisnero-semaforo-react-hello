@@ -44,7 +44,7 @@ const Home = () => {
 		setNumberYellow(3)
 		setNumberRed('')
 	}
-
+ 
 
 	/* COLOR YELLOW */
 	
@@ -63,7 +63,6 @@ const Home = () => {
 		setColorRed(true)
 		setNumberRed(10)
 		setNumberGreen('')
-		
 	}
 
 	/* USE EFFECT */
@@ -78,7 +77,6 @@ const Home = () => {
 		} else {
 			clearInterval(interval)
 		}
-
 
 
 		return () => clearInterval(interval)
@@ -134,7 +132,7 @@ const Home = () => {
 									height: '200px',
 									borderRadius: '50%',
 									boxShadow: `${colorYellow ? '0px 0px 100px 50px yellow' : ''}`
-								}}><div><p style={{ color: '#f6f698' }}>{numberYellow}</p></div></div>
+								}}><div><p style={{ color: '#f5f562' }}>{numberYellow}</p></div></div>
 
 
 
